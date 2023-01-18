@@ -4,10 +4,7 @@ from os import system, getcwd, access, W_OK
 from datetime import datetime
 from tkinter import filedialog, Tk
 from threading import Thread
-from time import sleep
-from concurrent.futures import ThreadPoolExecutor
-
-tries = 0
+from time import sleep+
 
 system("title ZiPCracker")
 #Helpers
