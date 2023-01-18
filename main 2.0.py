@@ -1,10 +1,10 @@
 from pyzipper import AESZipFile
 
-from os import system, getcwd, access, W_OK
+from os import system, getcwd
 from datetime import datetime
 from tkinter import filedialog, Tk
 from threading import Thread
-from time import sleep+
+from time import sleep
 
 system("title ZiPCracker")
 #Helpers
